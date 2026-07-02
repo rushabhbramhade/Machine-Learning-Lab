@@ -169,6 +169,14 @@ git commit -m "Fixed login validation bug"
 git commit -m "update"
 ```
 
+| Situation | Prefix |
+| --- | --- |
+| Added something new | `feat:` |
+| Fixed a bug | `fix:` |
+| Improved code structure only | `refactor:` |
+| Updated README/docs | `docs:` |
+| Added tests | `test:` |
+| Dependency/config changes | `chore:` |
 ## 5️⃣ View Commit History
 
 - Command
