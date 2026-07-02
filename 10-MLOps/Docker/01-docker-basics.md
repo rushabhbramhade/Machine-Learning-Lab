@@ -171,10 +171,7 @@ Docker Container
 - Use `-d` for servers.
 - Use `-p` to access apps.
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 # Quick Memory
 
 - 📦 Image = Blueprint
