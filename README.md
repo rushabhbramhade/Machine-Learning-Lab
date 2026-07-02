@@ -3,7 +3,6 @@
 My personal, structured path to becoming job-ready as a Machine Learning Engineer.
 Each folder = one learning module. Each file inside = one topic with my notes, resources, and links to practice code.
 
-> Projects are tracked in a separate repo (linked below) to keep this repo focused purely on learning/notes.
 
 ## How I'm using this repo
 - Mark topics done by checking them off below as I finish them.
