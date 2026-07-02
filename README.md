@@ -8,7 +8,7 @@ Each folder = one learning module. Each file inside = one topic with my notes, r
 ## How I'm using this repo
 - Mark topics done by checking them off below as I finish them.
 - Every topic file follows the same template: Status, Resources, Key Concepts, My Notes, Code/Practice.
-- Notes are written in my own words — not copy-pasted from docs/articles.
+- Notes are written in my own words not copy-pasted from docs/articles.
 
 ## Progress Checklist
 
