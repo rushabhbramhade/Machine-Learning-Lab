@@ -95,7 +95,7 @@ Each folder = one learning module. Each file inside = one topic with my notes, r
 - [ ] Transfer Learning
 
 ### 10. MLOps
-- [ ] Docker Basics
+- [x] Docker Basics
 - [ ] Model Serving (FastAPI/Flask)
 - [ ] Experiment Tracking (MLflow/W&B)
 - [ ] CI/CD for ML
