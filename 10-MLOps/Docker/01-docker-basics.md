@@ -1,13 +1,10 @@
 # 🐳 Docker Quick Notes (Beginner Friendly)
 
-> A fast-recall guide for Docker fundamentals.
-
 ## What is Docker?
 Docker packages your application **with everything it needs** (Python, libraries, dependencies, configs) so it runs the **same everywhere**.
 
 **Memory:** 📦 *Pack once → Run anywhere.*
 
----
 
 # Core Concepts
 
@@ -31,7 +28,6 @@ A **running instance** of an image.
 - Can start, stop, delete
 - Multiple containers can come from one image
 
----
 
 ## Docker Hub 🌐
 
@@ -49,7 +45,6 @@ Image
 Container
 ```
 
----
 
 ## Docker Desktop 💻
 
@@ -66,7 +61,6 @@ Responsibilities:
 - Docker Hub = Stores Images
 - Docker Desktop = Runs Images
 
----
 
 # Image vs Container
 
@@ -76,8 +70,6 @@ Responsibilities:
 | Read-only | Running |
 | Stored | Executing |
 | Can create many containers | Created from image |
-
----
 
 # requirements.txt
 
@@ -97,7 +89,6 @@ Install:
 pip install -r requirements.txt
 ```
 
----
 
 # Dockerfile
 
@@ -125,8 +116,6 @@ Build:
 docker build -t myapp:v1 .
 ```
 
----
-
 # Docker Image Commands
 
 | Command | Purpose |
@@ -136,8 +125,6 @@ docker build -t myapp:v1 .
 | `docker image prune` | Remove unused images |
 | `docker build -t app:v1 .` | Build image |
 | `docker build --no-cache -t app:v1 .` | Fresh build |
-
----
 
 # Docker Container Commands
 
@@ -155,7 +142,6 @@ docker build -t myapp:v1 .
 | `docker inspect NAME` | Details |
 | `docker rm NAME` | Delete container |
 
----
 
 # Docker Workflow
 
@@ -175,8 +161,6 @@ docker run
 Docker Container
 ```
 
----
-
 # Best Practices
 
 - Pin package versions.
@@ -186,8 +170,6 @@ Docker Container
 - Name containers with `--name`.
 - Use `-d` for servers.
 - Use `-p` to access apps.
-
----
 
 # Quick Memory
 
