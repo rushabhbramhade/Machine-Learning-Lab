@@ -224,7 +224,7 @@ Connects your local Git repository to a GitHub repository.
 git push -u origin main
 ```
 
----
+
 
 - Future Pushes
 
@@ -396,8 +396,6 @@ feature-payment
 ```
 
 The `*` shows your current branch.
-
----
 
 ## 1️⃣5️⃣ Delete a Branch
 
@@ -598,6 +596,3 @@ If you master these 10 commands and understand the workflow, you'll know around 
 
 These can be learned after you're comfortable with the fundamentals.
 
----
-
-⭐ Happy Coding! 🚀
