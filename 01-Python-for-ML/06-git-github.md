@@ -169,6 +169,14 @@ git commit -m "Fixed login validation bug"
 git commit -m "update"
 ```
 
+| Situation | Prefix |
+| --- | --- |
+| Added something new | `feat:` |
+| Fixed a bug | `fix:` |
+| Improved code structure only | `refactor:` |
+| Updated README/docs | `docs:` |
+| Added tests | `test:` |
+| Dependency/config changes | `chore:` |
 ## 5️⃣ View Commit History
 
 - Command
@@ -216,7 +224,7 @@ Connects your local Git repository to a GitHub repository.
 git push -u origin main
 ```
 
----
+
 
 - Future Pushes
 
@@ -388,8 +396,6 @@ feature-payment
 ```
 
 The `*` shows your current branch.
-
----
 
 ## 1️⃣5️⃣ Delete a Branch
 
@@ -590,6 +596,3 @@ If you master these 10 commands and understand the workflow, you'll know around 
 
 These can be learned after you're comfortable with the fundamentals.
 
----
-
-⭐ Happy Coding! 🚀
