@@ -100,3 +100,49 @@ docker build --no-cache -t <image_name>:<version> .
 | `docker image prune`                       | Remove dangling/unused images            | Free disk space                 |
 | `docker build -t app:v1 .`                 | Build a new image from a Dockerfile      | Create or update an image       |
 | `docker build --no-cache -t app:v1 .`      | Build a fresh image without cached layers| Force a clean rebuild           |
+
+Think of Docker images like books on a bookshelf:
+
+docker images → 📚 Show all books on the shelf.
+docker rmi python → 🗑️ Throw away one specific book.
+docker image prune → 🧹 Clean up old, forgotten books nobody uses anymore.
+docker build -t app:v1 . → ✍️ Write and publish a new book from your manuscript (the Dockerfile and your code).
+docker build --no-cache ... → 🆕 Rewrite the entire book from scratch, ignoring any previous drafts.
+
+
+CONTAINER :
+
+1. List All Containers 
+
+docker ps -a // Shows all containers, including stopped ones.
+
+Example
+docker ps -a
+
+Output
+
+CONTAINER ID   IMAGE       STATUS
+ab1234         nginx       Up 10 minutes
+cd5678         postgres    Exited (0)
+ef9012         redis       Exited (137)
+Meaning of Output
+Column	Meaning
+CONTAINER ID	Unique ID of the container
+IMAGE	Which image created this container
+STATUS	Running or Stopped
+
+2. List Running Containers
+
+docker ps // Shows only running containers.
+
+Example
+docker ps
+
+Output
+
+CONTAINER ID   IMAGE       STATUS
+ab1234         nginx       Up 10 minutes
+
+3. Create and Run a Container
+
+docker run <image_name>
