@@ -18,7 +18,7 @@ Each folder = one learning module. Each file inside = one topic with my notes, r
 - [ ] File Handling
 - [ ] Error Handling
 - [ ] Virtualenv & Pip
-- [ ] Git & GitHub
+- [x] Git & GitHub
 
 ### 02. NumPy
 - [ ] Arrays Basics
